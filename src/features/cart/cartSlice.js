@@ -29,7 +29,6 @@ const cartSlice = createSlice({
             } else {
                 state.cart = state.cart.filter(product => product._id !== action.payload._id)
             }
-
         }
     }
 })
